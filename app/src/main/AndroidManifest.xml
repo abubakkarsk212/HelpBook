@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="helpybook.as.popo.ltd">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/helpybook"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="796916223847780" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="MainActivity" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/helpybook" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/notificationColor" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noactionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AirtelU"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".VodafoneU"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".IdeaU"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".BsnlU"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".AircelU"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".AirtelC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".VodafoneC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".IdeaC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".BsnlC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".AircelC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".SbiC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".IciciC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".FederalC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".KotakC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".PnbC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".IndianC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".PaytmC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".HdfcC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".UnionC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".AirtelBC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".RblC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".AxisC"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Samsung"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Micromax"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Yu"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Mi"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Sony"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Lenovo"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".AirtelZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".PaytmZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".FedbookZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".KotakZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".PocketZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".RblZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".DbsZ"
+            android:theme="@style/noactionbar" />
+        <activity
+            android:name=".Contact"
+            android:label="Contact Us"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".InviteHelpy"
+            android:label="Invite"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".OtpActivity"
+            android:label="Verification Code"
+            android:parentActivityName=".Login" />
+        <activity android:name=".ReferDashboard" />
+        <activity android:name=".JioUssd"
+            android:theme="@style/noactionbar"/>
+        <activity android:name=".JioTelecom"
+            android:theme="@style/noactionbar">
+
+        </activity>
+    </application>
+
+</manifest>

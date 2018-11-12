@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="helpybook.as.popo.ltd.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical"
+       android:gravity="center_horizontal"
+        android:id="@+id/f"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We will send an SMS with a confirmation"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="code to this number"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="8dp"
+                />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Phone Number"
+            android:layout_marginBottom="16dp"
+            android:maxLength="10"
+            android:onClick="phoneNo"
+            android:id="@+id/edit"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Standard rate may apply"
+            android:textSize="16sp"
+            android:textColor="#F50057"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/f"
+            android:text="NEXT"
+            android:textColor="#ffffff"
+            android:background="#009688"
+            android:id="@+id/next1"
+            android:onClick="verificationPh"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "448867315031",
+    "firebase_url": "https://myhelpybook.firebaseio.com",
+    "project_id": "myhelpybook",
+    "storage_bucket": "myhelpybook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448867315031:android:ad6672511e9f4bcd",
+        "android_client_info": {
+          "package_name": "helpybook.as.popo.ltd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448867315031-ch0pb5ce47je8r5o528njubuaj1glel1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "helpybook.as.popo.ltd",
+            "certificate_hash": "a7746cd296cb67f21e94b7f29b7699622ee7eb7f"
+          }
+        },
+        {
+          "client_id": "448867315031-b42jbo8qhs9ttt2gg6cfgltq8hvpmsan.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "448867315031-b42jbo8qhs9ttt2gg6cfgltq8hvpmsan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsdTfAtORW-1Yzic1kZdsDZzBuxbfPqmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448867315031-b42jbo8qhs9ttt2gg6cfgltq8hvpmsan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
